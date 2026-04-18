@@ -15,6 +15,8 @@ This project serves as a desktop-based alternative to tools like `numberplans.co
 * **Database:** Microsoft SQL Server
 * **Concurrecy:** Async/Await (Task Parallel Library)
 
+---  
+
 ## ✨ Key Features
 
 * **Bi-directional Search:** Search by numeric prefix (e.g., `447`) to find the country/operator, or by string (e.g., `UK Mobile`) to find prefixes.
@@ -22,6 +24,8 @@ This project serves as a desktop-based alternative to tools like `numberplans.co
 * **High Performance:** Leverages Asynchronous LINQ queries to ensure the UI remains responsive during large data lookups.
 * **Data Persistence:** Robust SQL Server backend with Entity Framework for structured numbering plan management.
 * **Regex Validation:** Built-in input sanitization to ensure data integrity during search.
+
+---
 
 ## 🏗 Architecture
 
@@ -31,11 +35,18 @@ The application follows the **MVVM pattern** to ensure a clean separation of con
 2.  **View (XAML):** A modern UI with a data-bound `DataGrid` and stylized search bars.
 3.  **ViewModel:** Handles the presentation logic, command binding, and triggers asynchronous data fetching.
 
+---
+   ![Architecture](Telecom-Prefix-Locator-2.png)
+
+---   
+
 ## 📈 Performance Optimizations
 
 * **LINQ Optimization:** Used `.AsNoTracking()` for read-only search queries to reduce memory overhead.
 * **Async/Await:** All I/O operations are offloaded from the UI thread to prevent application freezing.
 * **Indexing:** SQL database columns `Prefix` and `Country` are indexed for sub-millisecond search results.
+
+---  
 
 ## 📝 How to Use
 
@@ -43,3 +54,5 @@ The application follows the **MVVM pattern** to ensure a clean separation of con
 2. Update the `App.config` connection string to point to your local SQL Server instance.
 3. Run the "Initial Migration" to set up the database schema.
 4. Launch the application and start typing a prefix in the search bar.
+
+---   
