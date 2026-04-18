@@ -52,7 +52,7 @@ The application follows the **MVVM pattern** to ensure a clean separation of con
 
 ## 📝 How to Use
 
-1. Clone the repository.
+1. Clone the repository (https://github.com/github-saba/Telecom-Prefix-Locator.git)
 2. Update the `App.config` connection string to point to your local SQL Server instance.
 3. Run the "Initial Migration" to set up the database schema.
 4. Launch the application and start typing a prefix in the search bar.
