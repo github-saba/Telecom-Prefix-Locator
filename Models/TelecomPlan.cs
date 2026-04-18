@@ -1,4 +1,4 @@
-// Models/TelecomPlan.cs
+// This is a simple class representing one row in your database.
 namespace TelecomLocator.Models
 {
     public class TelecomPlan
