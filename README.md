@@ -6,6 +6,8 @@ A high-performance C# Desktop application built with .NET and WPF for bi-directi
 
 This project serves as a desktop-based alternative to tools like `numberplans.com`. It allows users to instantly identify the country, region, and operator type (Mobile/Landline) based on a dialing prefix, or find prefixes associated with specific regions.
 
+---
+
 ## 🛠 Tech Stack
 
 * **Language:** C# (.NET Framework 4.6+)
