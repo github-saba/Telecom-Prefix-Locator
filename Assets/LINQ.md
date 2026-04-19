@@ -14,13 +14,17 @@ Before diving into the syntax, let’s understand why LINQ is so important:
 - Readability: LINQ queries are often more readable and concise than equivalent loops or other code constructs.
 - Strongly Typed: LINQ is integrated into C#, meaning that you get compile-time checking and IntelliSense support.
 - Declarative Approach: LINQ allows you to describe what you want to do with the data rather than how to do it, leading to clearer and more maintainable code.
-  
+
+---
+
 ### Basic Concepts of LINQ
 Before we start writing LINQ queries, let’s understand some basic concepts.
 
 - Data Source: The collection or sequence of data that you want to query. It could be an array, list, database table, etc.
 - Query: The set of operations that you define to fetch the data you need from the data source.
 - Execution: When the query is run, it pulls the data from the data source based on the query conditions.
+
+---  
 
 ### Getting Started with LINQ
 Let’s start with a simple example. Assume we have a list of integers, and we want to find all even numbers.
