@@ -55,6 +55,8 @@ class Program
 }
 ```
 
+---
+
 ### LINQ Syntax
 LINQ provides two types of syntax:
 
@@ -187,13 +189,17 @@ var crossJoin = from p in products
 ```
 var zipped = numbers.Zip(otherNumbers, (first, second) => first + second);
 ```
+---
+
 ## Best Practices for LINQ
 
-- 1. **Use Method Syntax for Complex Queries:** Method syntax can be more powerful and concise, especially for complex queries.
-- 2. **Avoid Repeated Queries:** Store the result of a query if you need to use it multiple times to avoid performance issues.
-- 3. **Use Deferred Execution Wisely:** Understand when your queries will execute to avoid unexpected behavior.
-- 4. **Optimize Performance:** Consider the performance impact of your queries, especially with large datasets or complex operations.
-   
+1. **Use Method Syntax for Complex Queries:** Method syntax can be more powerful and concise, especially for complex queries.
+2. **Avoid Repeated Queries:** Store the result of a query if you need to use it multiple times to avoid performance issues.
+3. **Use Deferred Execution Wisely:** Understand when your queries will execute to avoid unexpected behavior.
+4. **Optimize Performance:** Consider the performance impact of your queries, especially with large datasets or complex operations.
+
+---
+
 ## Conclusion
 LINQ is a powerful tool in C# that makes working with data more intuitive and readable. Whether you’re querying collections, 
 databases, or XML, LINQ provides a consistent way to handle data. By understanding and mastering LINQ, you can write more efficient, 
