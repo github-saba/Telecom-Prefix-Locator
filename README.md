@@ -50,6 +50,8 @@ The application follows the **MVVM pattern** to ensure a clean separation of con
 ├── App.config               # Database connection strings
 ├── App.xaml                 # Auto Generated File
 ├── App.xaml.cs              # Auto Generated File
+|── .gitignore               # Tells GitHub to ignore bin/obj/folders 
+│── README.md                # Tells overview, tech stack, key features, architecture etc..
 │
 ├── /Views                   
 │   ├── MainWindow.xaml      # View: The UI Design
