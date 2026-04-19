@@ -47,9 +47,9 @@ The application follows the **MVVM pattern** to ensure a clean separation of con
 ```
 /Telecom-Prefix-Locator.App (Project Folder)
 │
-├── App.config               # Database connection strings
-├── App.xaml                 # Auto Generated File
-├── App.xaml.cs              # Auto Generated File
+├── App.config               # App config (database connection strings)
+├── App.xaml                 # App config file
+├── App.xaml.cs              # Auto config file
 |── .gitignore               # Tells GitHub to ignore bin/obj/folders 
 │── README.md                # Tells overview, tech stack, key features, architecture etc..
 │
@@ -68,7 +68,6 @@ The application follows the **MVVM pattern** to ensure a clean separation of con
 │   └── PlanRepository.cs    # Database Queries (The Data Layer)
 │
 └── /Assets                  # (Optional) Store logo or architecture diagram here
-
 
 ```
 ##  Performance Optimizations
