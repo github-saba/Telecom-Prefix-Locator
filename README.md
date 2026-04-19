@@ -2,13 +2,13 @@
 
 A high-performance C# Desktop application built with .NET and WPF for bi-directional lookup of international telecommunication numbering plans, prefixes, and carrier information.
 
-## 🚀 Overview
+##  Overview
 
 This project serves as a desktop-based alternative to tools like `numberplans.com`. It allows users to instantly identify the country, region, and operator type (Mobile/Landline) based on a dialing prefix, or find prefixes associated with specific regions.
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 * **Language:** C# (.NET Framework 4.6+)
 * **UI Framework:** WPF (Windows Presentation Foundation) with XAML
@@ -19,7 +19,7 @@ This project serves as a desktop-based alternative to tools like `numberplans.co
 
 ---  
 
-## ✨ Key Features
+##  Key Features
 
 * **Bi-directional Search:** Search by numeric prefix (e.g., `447`) to find the country/operator, or by string (e.g., `UK Mobile`) to find prefixes.
 * **Real-time Filtering:** Optimized "Search-as-you-type" functionality using debouncing logic to minimize database load.
@@ -29,7 +29,7 @@ This project serves as a desktop-based alternative to tools like `numberplans.co
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
 The application follows the **MVVM pattern** to ensure a clean separation of concerns:
 
@@ -42,7 +42,34 @@ The application follows the **MVVM pattern** to ensure a clean separation of con
 
 ---   
 
-## 📈 Performance Optimizations
+##  MVVM Pattern 
+
+```
+/Telecom-Prefix-Locator.App (Project Folder)
+│
+├── App.config               # Database connection strings
+├── App.xaml                 # Auto Generated File
+├── App.xaml.cs              # Auto Generated File
+│
+├── /Views                   
+│   ├── MainWindow.xaml      # View: The UI Design
+│   └── MainWindow.xaml.cs   # View: Code-behind
+│
+├── /ViewModels              
+│   └── MainViewModel.cs     # The Application Logic (The "Brain")
+│
+├── /Models                  
+│   └── TelecomPlan.cs       # The Data Entity
+│
+└── /Data                    
+│   ├── MyDbContext.cs       # Entity Framework Configuration
+│   └── PlanRepository.cs    # Database Queries (The Data Layer)
+│
+└── /Assets                  # (Optional) Store your logo or architecture diagram here
+
+
+```
+##  Performance Optimizations
 
 * **LINQ Optimization:** Used `.AsNoTracking()` for read-only search queries to reduce memory overhead.
 * **Async/Await:** All I/O operations are offloaded from the UI thread to prevent application freezing.
@@ -50,7 +77,7 @@ The application follows the **MVVM pattern** to ensure a clean separation of con
 
 ---  
 
-## 📝 How to Use
+##  How to Use
 
 1. Clone the repository (https://github.com/github-saba/Telecom-Prefix-Locator.git)
 2. Update the `App.config` connection string to point to your local SQL Server instance.
