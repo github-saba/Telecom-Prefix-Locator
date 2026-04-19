@@ -65,7 +65,7 @@ The application follows the **MVVM pattern** to ensure a clean separation of con
 │   ├── MyDbContext.cs       # Entity Framework Configuration
 │   └── PlanRepository.cs    # Database Queries (The Data Layer)
 │
-└── /Assets                  # (Optional) Store your logo or architecture diagram here
+└── /Assets                  # (Optional) Store logo or architecture diagram here
 
 
 ```
