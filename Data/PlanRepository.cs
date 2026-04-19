@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Data.Entity;
 using System.Threading.Tasks;
-using TelecomLocator.Models;
+using Telecom-Prefix-Locator.Models;
 
-namespace TelecomLocator.Data
+namespace Telecom-Prefix-Locator.Data
 {
     public class PlanRepository
     {
