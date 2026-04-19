@@ -25,3 +25,13 @@
 - Multithreading / TPL: Tasks and BackgroundWorkers were huge for keeping desktop UIs from freezing.
 
 - Generics & Delegates: Fundamental C# concepts you definitely used.
+
+---
+
+## 4. C# --> Java
+
+- **Models** = Entities
+
+- **Data/Repository** = Spring Data Repositories
+
+- **ViewModels** = Controllers/Services (for UI state)
