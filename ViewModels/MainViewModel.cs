@@ -2,10 +2,10 @@
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Threading.Tasks;
-using TelecomLocator.Models;
-using TelecomLocator.Data;
+using Telecom-Prefix-Locator.Models;
+using Telecom-Prefix-Locator.Data;
 
-namespace TelecomLocator.ViewModels
+namespace Telecom-Prefix-Locator.ViewModels
 {
     public class MainViewModel : INotifyPropertyChanged
     {
