@@ -1,7 +1,7 @@
 using System.Windows;
-using TelecomLocator.ViewModels;
+using Telecom-Prefix-Locator.ViewModels;
 
-namespace TelecomLocator
+namespace Telecom-Prefix-Locator
 {
     public partial class MainWindow : Window
     {
