@@ -38,7 +38,7 @@ The application follows the **MVVM pattern** to ensure a clean separation of con
 3.  **ViewModel:** Handles the presentation logic, command binding, and triggers asynchronous data fetching.
 
 ---
-   ![Architecture](Telecom-Prefix-Locator-2.png)
+   ![Architecture](/Assets/Telecom-Prefix-Locator-2.png)
 
 ---   
 
