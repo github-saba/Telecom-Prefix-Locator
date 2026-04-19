@@ -1,5 +1,7 @@
 ## Introduction to LINQ in C#
 
+---
+
 ### Language Integrated Query (LINQ) is one of the most powerful features of C#. 
 It allows developers to write queries directly within the C# language to manipulate
 and query data from different data sources like collections, databases, XML documents,
@@ -207,5 +209,7 @@ maintainable, and cleaner code.
 
 Remember, the best way to learn LINQ is by practicing. Try different queries with your data sets,
 experiment with both query and method syntax, and explore the various LINQ operators.
+
+---
 
 Thanks, above info refered from @https://medium.com/@ravipatel.it/introduction-to-linq-in-c-26bf70607d14
