@@ -1,5 +1,5 @@
 // This is a simple class representing one row in your database.
-namespace TelecomLocator.Models
+namespace Telecom-Prefix-Locator.Models
 {
     public class TelecomPlan
     {
