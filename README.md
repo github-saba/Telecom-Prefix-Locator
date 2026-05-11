@@ -21,7 +21,7 @@ This project serves as a desktop-based alternative to tools like `numberplans.co
 
 ##  Key Features
 
-* **Bi-directional Search:** Search by numeric prefix (e.g., `447`) to find the country/operator, or by string (e.g., `UK Mobile`) to find prefixes.
+* **Bi-directional Search:** Search by numeric prefix (e.g., `447`) to find the country/operator, or by string (e.g., `United Kingdom Mobile`) to find prefixes.
 * **Real-time Filtering:** Optimized "Search-as-you-type" functionality using debouncing logic to minimize database load.
 * **High Performance:** Leverages Asynchronous LINQ queries to ensure the UI remains responsive during large data lookups.
 * **Data Persistence:** Robust SQL Server backend with Entity Framework for structured numbering plan management.
